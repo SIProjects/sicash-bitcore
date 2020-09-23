@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/qtum-cli
-src/qtum-tx
-src/qtumd
-src/bench/bench_qtum
-src/qt/qtum-qt
-src/qt/test/test_qtum-qt
-src/test/test_qtum
-src/test/test_qtum_fuzzy
+src/sicash-cli
+src/sicash-tx
+src/sicashd
+src/bench/bench_sicash
+src/qt/sicash-qt
+src/qt/test/test_sicash-qt
+src/test/test_sicash
+src/test/test_sicash_fuzzy
 
 # autoreconf
 Makefile.in

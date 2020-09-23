@@ -76,7 +76,7 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 if "BITCOIND" not in os.environ:
-    os.environ["BITCOIND"] = BUILDDIR + '/src/qtumd' + EXEEXT
+    os.environ["BITCOIND"] = BUILDDIR + '/src/sicashd' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
@@ -159,37 +159,37 @@ testScripts = [
     'listsinceblock.py',
     'p2p-leaktests.py',
 
-    #qtum
-    'qtum-8mb-block.py',
-    'qtum-dgp-gas-price-lingering-mempool-tx.py',
-    'qtum-opcreate.py',
-    'qtum-block-header.py',
-    'qtum-dgp.py',
-    'qtum-pos.py',
-    'qtum-callcontract.py',
-    'qtum-gas-limit.py',
-    'qtum-pos-segwit.py',
-    'qtum-combined-outputs-exceed-gas-limit.py',
-    'qtum-globals-state-changer.py',
-    'qtum-sendtocontract.py',
-    'qtum-condensing-txs.py',
-    'qtum-identical-refunds.py',
-    'qtum-soft-block-gas-limits.py',
-    'qtum-createcontract.py',
-    'qtum-many-value-refunds-from-same-tx.py',
-    'qtum-spend-op-call.py',
-    'qtum-create-eth-op-code.py',
-    'qtum-no-exec-call-disabled.py',
-    'qtum-state-root.py',
-    'qtum-dgp-block-size-restart.py',
-    'qtum-null-sender.py',
-    'qtum-transaction-prioritization.py',
-    'qtum-dgp-block-size-sync.py',
-    'qtum-opcall.py',
-    'qtum-assign-mpos-fees-to-gas-refund.py',
-    'qtum-gas-limit-overflow.py',
-    'qtum-immature-coinstake-spend.py',
-    'qtum-ignore-mpos-participant-reward.py',
+    #sicash
+    'sicash-8mb-block.py',
+    'sicash-dgp-gas-price-lingering-mempool-tx.py',
+    'sicash-opcreate.py',
+    'sicash-block-header.py',
+    'sicash-dgp.py',
+    'sicash-pos.py',
+    'sicash-callcontract.py',
+    'sicash-gas-limit.py',
+    'sicash-pos-segwit.py',
+    'sicash-combined-outputs-exceed-gas-limit.py',
+    'sicash-globals-state-changer.py',
+    'sicash-sendtocontract.py',
+    'sicash-condensing-txs.py',
+    'sicash-identical-refunds.py',
+    'sicash-soft-block-gas-limits.py',
+    'sicash-createcontract.py',
+    'sicash-many-value-refunds-from-same-tx.py',
+    'sicash-spend-op-call.py',
+    'sicash-create-eth-op-code.py',
+    'sicash-no-exec-call-disabled.py',
+    'sicash-state-root.py',
+    'sicash-dgp-block-size-restart.py',
+    'sicash-null-sender.py',
+    'sicash-transaction-prioritization.py',
+    'sicash-dgp-block-size-sync.py',
+    'sicash-opcall.py',
+    'sicash-assign-mpos-fees-to-gas-refund.py',
+    'sicash-gas-limit-overflow.py',
+    'sicash-immature-coinstake-spend.py',
+    'sicash-ignore-mpos-participant-reward.py',
 ]
 
 

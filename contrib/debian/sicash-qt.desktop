@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoin Core
+Comment=Connect to the SICash P2P Network
+Exec=sicash-qt %u
+Terminal=false
+Type=Application
+Icon=sicash128
+MimeType=x-scheme-handler/sicash;
+Categories=Office;Finance;
